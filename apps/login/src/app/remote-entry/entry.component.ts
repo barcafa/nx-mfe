@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { UserService } from '@nx-mfe/shared/data-access-user';
 
 @Component({
-  selector: 'ng-mfe-login-entry',
+  selector: 'nx-mfe-login-entry',
   template: `
     <div class="login-app">
       <form class="login-form" (ngSubmit)="login()">
